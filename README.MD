@@ -13,7 +13,9 @@ A Python/Flask dashboard for a Products database.
 ## Running
 
 1. Clone the repo
-2. Open a terminal and run..
+2. Open the app 
+3. Select "Reopen in container" when prompted 
+2. Open a terminal and run...
     ```
     python app.py
     ```
