@@ -4,9 +4,6 @@ import json
 
 app = Flask(__name__)
 
-// TODO:  # 4 Some other issue
-// TODO:  # 3 Some Issue
-
 
 @app.route("/")
 def index():
