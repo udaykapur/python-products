@@ -4,12 +4,17 @@ import json
 
 app = Flask(__name__)
 
+// TODO:  # 4 Some other issue
+// TODO:  # 3 Some Issue
+
+
 @app.route("/")
 def index():
     with open('data/products.json') as f:
         data = json.load(f)
 
     return render_template('index.html', products=data)
+
 
 if __name__ == "__main__":
     app.run(debug=True)
