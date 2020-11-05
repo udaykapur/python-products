@@ -4,7 +4,8 @@ import json
 
 app = Flask(__name__)
 
-
+# index route
+# params
 @app.route("/")
 def index():
     with open('data/products.json') as f:
