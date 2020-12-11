@@ -4,18 +4,17 @@ A Python/Flask dashboard for a Products database.
 
 ## Prequisites
 
-* Visual Studio Code
-* Docker (WSL2 required for Windows users)
-* Remote Containers extension for VS Code
-
-
+* Python 3
 
 ## Running
 
 1. Clone the repo
-2. Open the app 
-3. Select "Reopen in container" when prompted 
-2. Open a terminal and run...
+1. Open the app
+1. Install the dependencies...
+    ```
+    pip3 install --user -r requirements.txt
+    ```
+1. Start the server...
     ```
     python app.py
     ```
